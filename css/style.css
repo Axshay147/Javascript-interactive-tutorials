@@ -1,0 +1,245 @@
+body {
+  margin-top: 70px;
+  font-size: 16px;
+  background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-default {
+  background: #fff;
+  border: 0;
+  font-family: Poppins;
+}
+
+/* .navbar-brand {
+  font-size: 20px;
+  color: rgb(26, 89, 141) !important;
+  font-weight: bold;
+} */
+
+#showcase h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#showcase img {
+  width: 90%;
+  margin-left: 60px;
+}
+
+#showcase .showcase-right {
+  margin-top: 90px;
+}
+
+#testimonial {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#testimonial p {
+  font-size: 32px;
+  font-family: 'verdana';
+  color: rgb(112, 113, 114);
+}
+
+#testimonial p.customer {
+  font-size: 20px;
+  color: #666;
+}
+
+#info1 .info-right {
+  margin-top: 90px;
+}
+
+#info2 {
+  margin: 20px 0 60px 0;
+}
+
+#contact {
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+  color: rgb(20, 20, 20);
+  border-bottom: none;
+}
+
+footer {
+  padding: 30px;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* 100% of the page */
+  height: 100%;
+  /* 100% of the page */
+  background-color: rgb(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+/* Modal Content */
+
+.modal-content {
+  box-shadow: 0 0 20px 0 rgba(72, 94, 117, 0.7);
+  align-content: center;
+  background-color: #fefefe;
+  margin: 3.5% auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 100%;
+  max-width: 450px;
+  height: 85%;
+}
+
+.modal-content>* {
+  padding: 1em;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* Sign Up Button */
+
+#signUp {
+  text-align: center;
+  float: inline-end;
+  padding: 8px;
+  width: 100px;
+  height: 40px;
+  color: #FFF;
+  background-color: rgb(55, 148, 255);
+  border-radius: 0;
+  border: none;
+}
+
+#signUp:hover, #signUp:focus {
+  background-color: rgb(26, 131, 250);
+  cursor: pointer;
+}
+
+/* The Close Button 
+.close {
+  color: #aaaaaa;
+  align-content: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}*/
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* Form */
+
+button {
+  border: none;
+  background-color: #4d9ffd;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+form {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+input {
+  background-color: #fff;
+  border: 1px solid  #b1b0b0;
+  padding: 2px 5px;
+  margin: 8px 0;
+  width: 100%;
+  height: 35px;
+}
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* Dropdown Login */
+.dropdown-menu {
+  width: 300px !important;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* Icon */
+.icon {
+
+  width: 140px;
+  height: 40px;
+}
+
+.namePage {
+  display: flex;
+  align-items: center;
+}
+

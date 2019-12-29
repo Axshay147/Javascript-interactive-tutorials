@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Monku: A way to an effortless learning.</title>
+  <script src="https://kit.fontawesome.com/ab61a64eca.js" crossorigin="anonymous"></script>
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
+    rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="JS/main.js"></script>
+</head>
+
+<body>
+
+  </div>
+
+  <!-- Nav starts -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="namePage"><a class="navbar-brand" href="#"> <img src="img/logo.jpg" class="icon"></a><!--<img src="img/image.png" class="icon">--></div>
+        
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#contact"><span class='glyphicon glyphicon-earphone'></span>Contact</a></li>
+          <!-- <li><a href="#" class="Login">Login</a></li> -->
+          <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Login</a>
+            <div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;">
+            <form class="form-horizontal"  method="post" accept-charset="UTF-8">
+              <input id="sp_uname" class="form-control login" type="text" name="sp_uname" placeholder="Username.." />
+              <input id="sp_pass" class="form-control login" type="password" name="sp_pass" placeholder="Password.."/>
+              <input class="btn btn-primary" type="submit" name="submit" value="Login"> 
+            </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+  <!-- ------------------------------------------------------------------------------------------------------------------- -->
+  <!-- First Section -->
+  <section id="showcase">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="showcase-left">
+            <img src="img/cloud.jpg">
+          </div>
+        </div>
+
+        <div class="showcase-right">
+          <h1>Learning can only be fun when you can learn at ease.</h1>
+          <p>Monku enables you to Learn to code with state of the art privacy and performance. Interactive learning
+            combined with easy interface.</p>
+        </div>
+        <br>
+        <a class="btn btn-default btn-lg showcase-btn signUp" id="signUp">Sign Up</a>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- ------------------------------------------------------------------------------------------------------------------- -->
+  <!-- Second Section -->
+
+  <section id="testimonial">
+    <div class="container">
+      <p>Data are the most valuable things in todays world. We ensure to protect your data and at the same time bring
+        out that ease in sharing data without any fear of misuse of your data.
+
+      </p>
+      <!-- <p class="customer">- Someone</p> -->
+    </div>
+  </section>
+  <!-- ------------------------------------------------------------------------------------------------------------------- -->
+  <!-- Third Section -->
+
+  <section id="info1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="info-left">
+            <img src="img/code_two.PNG" height="250px" width="550px">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="info-right">
+            <h2>Start today to learn at Monku</h2>
+            <p>Learn some of the best programming languages for web.</p>
+            <br>
+            <a class="btn btn-default btn-lg">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ------------------------------------------------------------------------------------------------------------------- -->
+  <!-- Fourth Section -->
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="column" style="background-color:white;">
+          <h2>Services</h2>
+          <h3>Storage</h3>
+          <h3>Mobile App</h3>
+          <h3>Desktop App</h3>
+          <h3>Features</h3>
+        </div>
+        <div class="column" style="background-color:white;">
+          <h2>Company</h2>
+          <h3>About us</h3>
+          <h3>Careers</h3>
+          <h3>Investment</h3>
+          <h3>Blog</h3>
+          <h3>Feedbacks</h3>
+
+        </div>
+        <div class="column" style="background-color:white;">
+          <h2>Customer Support</h2>
+          <h3>Service center</h3>
+          <h3>Contact</h3>
+          <h3>Privacy</h3>
+          <h3>Cookies</h3>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ------------------------------------------------------------------------------------------------------------------- -->
+  <!-- The Modal for Sign Up form -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <!-- <span class="close">&times;</span>  -->
+      <div class="wrapper">
+        <div class="form-container sign-up-container">
+          <form action="#">
+            <h3>Create Account</h3>
+            <span>Use your email for registration</span>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <br>
+            <button>Sign Up</button>
+            <h4>Or</h4>
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!--------------------------------------------------------------------------------------------------------------------- -->
+  <!-- Modal for signin form -->
+  <div id="modalTwo" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <!-- <span class="close">&times;</span>  -->
+      <div class="wrapper">
+        <div class="form-container sign-in-container">
+          <form action="#">
+            <h1>Sign in</h1>
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your account</span>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <a href="#">Forgot your password?</a>
+            <button>Sign In</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!--------------------------------------------------------------------------------------------------------------------- -->
+  <!-- Footer -->
+  <footer>
+    <p class="text-center">Monku Copyright &copy; 2019</p>
+  </footer>
+
+  <!-- Javascripts -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
